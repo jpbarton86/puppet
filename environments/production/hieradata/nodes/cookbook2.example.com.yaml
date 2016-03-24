@@ -1,10 +1,8 @@
 ---
 ntp::restrict:
   -
-ntp::autoupdate: true
+ntp::autoupdate: false
 ntp::enable: true
 ntp::servers:
-  - 0.uk.pool.ntp.org iburst
-  - 1.uk.pool.ntp.org iburst
-  - 2.uk.pool.ntp.org iburst
-  - 3.uk.pool.ntp.org iburst
+  - cookbook.example.com iburst
+  - 0.us.pool.ntp.org iburst
