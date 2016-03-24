@@ -7,11 +7,4 @@ node 'cookbook2' {
 node 'cookbook' {
   include puppet
 
-#class { "ntp":
-#    servers    => [ '0.uk.pool.ntp.org iburst', '1.uk.pool.ntp.org iburst'],
-#    autoupdate => true,
-#    restrict   => [],
-#    enable     => true,
-#  }
-
 }

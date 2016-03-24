@@ -1,0 +1,10 @@
+---
+ntp::restrict:
+  -
+ntp::autoupdate: true
+ntp::enable: true
+ntp::servers:
+  - 0.uk.pool.ntp.org iburst
+  - 1.uk.pool.ntp.org iburst
+  - 2.uk.pool.ntp.org iburst
+  - 3.uk.pool.ntp.org iburst
